@@ -1,0 +1,30 @@
+        @font-face {
+            font-family: 'Icons';
+            src: url('https://cdn.jsdelivr.net/gh/abrahimdiaa-code/font-icons@main/home-icon.woff2') format('woff2'),
+                 url('https://cdn.jsdelivr.net/gh/abrahimdiaa-code/font-icons@main/home-icon.woff') format('woff');
+            font-style: normal;
+            font-weight: 100 700;
+            font-display: swap;
+            font-display: block;
+        }
+.Icons{
+  font-family: 'Icons' !important;
+  font-weight: 100 700;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}    
+    .home-icon-regular::before {
+    content: "\f000";
+}
+    .home-icon-solid::before {
+    content: "\f001";
+}
