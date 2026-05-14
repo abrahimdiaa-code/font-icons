@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Icons';
+  src: url('icons.woff2') format('woff2'),
+       url('icons.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  font-family: 'Icons' !important;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+}
+.planet-icon::before {
+  content: "\e00c";
+}
+.moon-solid-icon::before {
+  content: "\e00d";
+}
+.physics-science-icon::before {
+  content: "\e00b";
+}
+.random-icon::before {
+  content: "\e00a";
+}
+.book-learn-icon::before {
+  content: "\e009";
+}
+.copyright-icon::before {
+  content: "\e008";
+}
+.sun-icon::before {
+  content: "\e007";
+}
+.cross-xmark-icon::before {
+  content: "\e006";
+}
+.burgermenu-icon::before {
+  content: "\e005";
+}
+.search-icon::before {
+  content: "\e004";
+}
+.email-icon::before {
+  content: "\e003";
+}
+.star-rings-icon::before {
+  content: "\e002";
+}
+.home-regular-icon::before {
+  content: "\e001";
+}
+.home-solid-icon::before {
+  content: "\e000";
+}
